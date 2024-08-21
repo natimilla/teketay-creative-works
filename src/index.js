@@ -10,7 +10,7 @@ import Store from "./store/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="teketay-creative-works">
+  <BrowserRouter basename="/teketay-creative-works">
     <Provider store={Store}>
       <React.StrictMode>
         <App />
