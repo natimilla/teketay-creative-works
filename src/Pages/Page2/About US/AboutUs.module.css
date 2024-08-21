@@ -1,0 +1,29 @@
+.container{
+    height:60dvh;
+    background-image: url('./Image/teketaycreativeworks-horse.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60dvh;
+   right:0;
+   left:0;
+    background-color: rgba(0, 0, 0, 0.597);
+    border:none;
+    z-index: 10;
+    overflow-x: hidden;
+}
+.heading{
+    font-weight: bold;
+    font-size:32px;
+    color:white;
+}
+.color{
+    color:rgba(255, 60, 0, 0.678)
+}

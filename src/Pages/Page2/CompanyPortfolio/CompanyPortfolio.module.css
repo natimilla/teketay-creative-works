@@ -1,0 +1,25 @@
+.container{
+    padding:3rem 1rem;
+}
+.listContainer{
+    margin-bottom: 2rem;
+}
+.headingContainer{
+    margin-bottom: 1rem;
+}
+.heading{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+}
+.horizontalLineContainer{
+    display: flex;
+    justify-content: center;
+}
+.horizontalLine{
+    border:2px solid rgba(255, 60, 0, 0.678);
+    width:10dvw;
+}
+.description{
+    text-align: justify;
+}

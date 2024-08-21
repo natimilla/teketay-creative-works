@@ -1,0 +1,16 @@
+.link{
+    text-decoration: none;
+}
+.links{
+    color:white;
+}
+.links img{
+     max-width: 32px;
+     max-height: 32px;
+}
+.heading{
+    font-size: 32px;
+    color:white;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}

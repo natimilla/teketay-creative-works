@@ -1,0 +1,16 @@
+.loading{
+    font-weight: bold;
+    color:white;
+    margin-top: 1rem;
+}
+.button{
+    font-weight: bold;
+    padding:0.5rem 2.5rem;
+    margin:1rem;
+    border:none;
+    background-color: rgba(255, 60, 0, 0.678);
+    color:white
+}
+.button:hover{
+    box-shadow: 0 0 2px white;
+}

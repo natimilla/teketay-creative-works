@@ -1,0 +1,12 @@
+.container{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:100dvh;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

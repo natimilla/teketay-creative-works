@@ -1,0 +1,27 @@
+
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    display:block;
+}
+.linkContainer a{
+    text-decoration: none;
+    color:white;
+    
+}
+.headingSpan{
+    color:black;
+}
+a img{
+    max-width: 30px;
+    max-height: 30px;
+   
+}
+.linkLogo img{
+    margin:1rem;
+   
+}
+.linkContainer{
+    margin:1.5rem 1rem
+}

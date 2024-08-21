@@ -1,0 +1,23 @@
+.container{
+    padding:3rem 2rem;
+    
+}
+.heading{
+    font-size: 32px;
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+.horizontalContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.horizontalLine{
+    border:2px solid rgba(255, 60, 0, 0.678) ;
+    width:10dvw;
+}
+.subContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,21 @@
+.img{
+    width:90dvw;
+    height:90dvh;
+    border-radius: 0;
+}
+.carousel{
+    color:white;
+    z-index: 200;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    position: absolute;
+    height:90dvh;
+    width: 90dvw;
+    margin:0 auto;
+}
+.overlayContainer{
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,20 @@
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.horizontalLine{
+    border:2px solid rgb(255, 60, 0, 0.678);
+    width:10dvw;
+    margin-bottom: 1rem;
+}
+.horizontalContainer{
+    display:flex;
+    padding:0;
+    justify-content: center;
+}
+@media screen and (max-width:1000px) {
+    .horizontalContainer{
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,64 @@
+.container{
+    padding:2rem 1rem;
+    box-shadow: 0 0 5px black;
+}
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.infoContainer{
+    display: flex;
+    align-items: center;
+}
+.label{
+    text-align: left;
+    font-weight: bold;
+}
+.textInput{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding:5px;
+    width:20dvw;
+    background-color: rgb(248, 250, 252);
+}
+.textInput:focus{
+    outline: none;
+}
+.inputTypeContainer{
+    margin:0 1rem 1rem 0
+}
+.inputContainer{
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 1rem;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: baseline;
+    margin:3rem 0 1rem 0;
+}
+.button{
+    background-color: rgba(255, 60, 0, 0.678);
+    padding:0.75rem 1.25rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    box-shadow:0 0 2px black;
+}
+@media screen and (max-width:1000px) {
+    .container{
+        width:90dvw;
+    }
+    .textInput{
+        width:35dvw;
+        background-color: whitesmoke;
+    }
+}

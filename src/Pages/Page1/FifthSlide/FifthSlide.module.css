@@ -1,0 +1,61 @@
+.container{
+    background-color: #F5F5F5  ;
+    padding:5rem 2rem;
+}
+.heading{
+    color:rgba(255, 60, 0, 0.678);
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+.allContainer{
+    border-collapse: collapse;
+  
+}
+.faqContainer{
+    background-color: white;
+    padding:1rem 0.75rem;
+    cursor: pointer;
+    max-width: 50rem;
+    
+    margin:0  auto 0 auto;
+    border-collapse: collapse;
+}
+.imgContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgContainer p{
+    margin-right: 10px;
+    text-align: left;
+}
+.imgContainer.active{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+    color:#36b4d3;
+}
+.imgContainer img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.description{
+    text-align: left;
+    margin-top: 1rem;
+    animation: intro 0.1s linear;
+}
+@keyframes intro {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}

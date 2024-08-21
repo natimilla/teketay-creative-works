@@ -1,0 +1,43 @@
+.listsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3.5rem 0;
+}
+.listContainer{
+    background-color: rgb(245, 244, 244);
+    box-shadow: 0 0 5px black;
+    padding:2rem 2rem;
+    border:1px solid rgb(219, 217, 217);
+    margin:0 1rem;
+    width:30dvw;
+}
+.img{
+    width:64px;
+    height:64px;
+}
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin:1rem 0;
+    color:rgba(255, 60, 0, 0.678);
+}
+.decription{
+    text-align: justify;
+}
+.listContainer:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+@media screen and (max-width:1000px) {
+    .listsContainer{
+        flex-wrap: wrap;
+        margin:0;
+    }
+    .listContainer{
+        width:80dvw;
+        margin-bottom: 2rem;
+    }
+    .listContainer:hover{
+        transform: scale(1);
+    }
+}
