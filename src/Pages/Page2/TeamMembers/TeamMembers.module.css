@@ -45,12 +45,12 @@
 }
 @media screen and (max-width:1000px) {
     .listContainer{
-        width:60dvw;
+        width:70dvw;
         display: block;
         padding-bottom: 2rem;
     }
     .img{
-        width:60dvw;
+        width:70dvw;
         height:40dvh;
         margin-bottom: 1.5rem;
     }

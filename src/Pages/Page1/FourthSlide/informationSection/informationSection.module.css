@@ -47,4 +47,11 @@
         margin-bottom: 2rem;
         width:90dvw
     }
+    .informationContainer{
+        align-items: baseline;
+        text-align:initial;
+    }
+    .infoheading{
+        text-align: start;
+    }
 }

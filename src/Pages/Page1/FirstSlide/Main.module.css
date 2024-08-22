@@ -21,13 +21,13 @@ h{
     padding: 1rem 2rem;
     border-radius: 5px;
     color:white;
-    background-color:rgba(255, 60, 0, 0.678) ;
+    background-color:#ff3c00 ;
     margin:10px;
     text-decoration: none;
     font-weight: bold;
 }
 .color{
-    color:rgba(255, 60, 0, 0.678);
+    color:#ff3c00;
 }
 .linkContainer{
     display: flex;
