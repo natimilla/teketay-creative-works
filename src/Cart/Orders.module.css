@@ -1,0 +1,109 @@
+.container{
+    height:100dvh;
+    position:Fixed;
+    top:0;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.subContainer{
+    background-color: white;
+    width:50dvw;
+    max-height: 80dvh;
+    overflow-y: scroll;
+    padding:1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 2px white;
+}
+.img{
+    width:10dvw;
+    height: 10dvh;
+    border-radius: 0;
+    box-shadow: 0 0 5px black;
+}
+.header{
+    font-size: 32px;
+    font-weight: bold;
+    margin:0.5rem 0;
+}
+.imageContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+    border-bottom:2px solid #ff3c00b7;
+}
+.name{
+   font-weight: bold;
+   margin-top: 10px;
+   text-align: left;
+   padding-left: 15px;
+   font-size:22px;
+} 
+.price{
+    font-weight: bold;
+   margin-bottom: 1rem;
+   color:#ff3c00;
+   text-align: left;
+   padding-left: 15px;
+}
+.Amount{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.amount{
+    padding:1px 10px;
+    border:1px solid black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.buttonContainer{
+    display: flex;
+}
+.totalPriceContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.totalPrice{
+    font-weight: bold;
+    padding-left: 15px;
+    margin:1rem 0;
+    text-align: left;
+}
+.button{
+    margin:0 0.5rem;
+    padding:0.25rem 1rem;
+    background-color: #ff3c00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    width:8dvw;
+}
+.button:hover{
+    background-color: #dd3705;
+    box-shadow: 0 0 5px black;
+}
+.button:active{
+    transform: scale(0.95);
+}
+@media screen and (max-width:1000px) {
+    .subContainer{
+        width:90dvw;
+        padding:5px;
+    }
+    .button{
+        width:20dvw;
+        padding:5px;
+    }
+    .img{
+        width:20dvw;
+        height: 10dvh;
+    }
+}

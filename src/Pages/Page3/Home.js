@@ -2,6 +2,7 @@ import { useState,useEffect } from 'react'
 import classes from './Card.module.css'
 import { useDispatch } from 'react-redux';
 import { displayActions } from '../../store/display';
+import { CartDisplayAction } from '../../store/CartDisplay';
 function Home(){
     const[loadedData,setData]=useState([]);
     const[isEmpty,setEmpty]=useState(false);
@@ -46,6 +47,15 @@ function Home(){
         }
         fetchData()
     },[])
+    const addItemHandler=(id,img,name,price)=>{
+        dispatch(CartDisplayAction.scaleUpHandler())
+        setTimeout(()=>{
+            dispatch(CartDisplayAction.scaleUpHandler())
+        },2000)
+        dispatch(CartDisplayAction.addItemHandler({id:id,src:img,name:name,price:price}));
+        dispatch(CartDisplayAction.totalPriceHandler());
+        dispatch(CartDisplayAction.isEmptyHandler())
+    }
     return <div className={classes.container} id='home'>
         <div className={classes.heading}>Home Accessories</div>
         <div className={classes.horizontalLineContainer}><hr className={classes.horizontalLine}/></div>
@@ -58,7 +68,7 @@ function Home(){
               <div className={classes.imageContainer}><img src={item.img} className={classes.img}/></div>
               <div className={classes.description}>Name: {item.name}</div>
               <div className={classes.description}>Price: {item.price}</div>
-              <div className={classes.button}><a href='tel:'>Call To Order</a></div>
+              <button className={classes.button} onClick={()=>{addItemHandler(item.id,item.img,item.name,item.price)}}>Add to cart</button>
             </div>
         })}
 

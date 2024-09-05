@@ -53,6 +53,7 @@ ul li:hover{
 @media screen and (max-width:1000px) {
     .container{
         padding:1.25rem 5px;
+        z-index: 20000;
     }
     h{
         font-size: 22px;
