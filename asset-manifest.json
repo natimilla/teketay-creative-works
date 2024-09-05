@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teketay-creative-works/static/css/main.531a9479.css",
-    "main.js": "/teketay-creative-works/static/js/main.0d06504c.js",
+    "main.js": "/teketay-creative-works/static/js/main.d3c575f4.js",
     "static/js/453.1dfb70ee.chunk.js": "/teketay-creative-works/static/js/453.1dfb70ee.chunk.js",
     "static/media/video_2024-08-12_17-46-02.mp4": "/teketay-creative-works/static/media/video_2024-08-12_17-46-02.ad1d1f9afe9333d2a6d5.mp4",
     "static/media/Meskel.jpg": "/teketay-creative-works/static/media/Meskel.754db5c4d024769ef6f2.jpg",
@@ -39,11 +39,11 @@
     "static/media/interiorDesign.svg": "/teketay-creative-works/static/media/interiorDesign.36d302f08dc0662f3aeac781473b547d.svg",
     "static/media/menuIcon.svg": "/teketay-creative-works/static/media/menuIcon.864c0f54c784828d98f3de83aea62c46.svg",
     "main.531a9479.css.map": "/teketay-creative-works/static/css/main.531a9479.css.map",
-    "main.0d06504c.js.map": "/teketay-creative-works/static/js/main.0d06504c.js.map",
+    "main.d3c575f4.js.map": "/teketay-creative-works/static/js/main.d3c575f4.js.map",
     "453.1dfb70ee.chunk.js.map": "/teketay-creative-works/static/js/453.1dfb70ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.531a9479.css",
-    "static/js/main.0d06504c.js"
+    "static/js/main.d3c575f4.js"
   ]
 }
