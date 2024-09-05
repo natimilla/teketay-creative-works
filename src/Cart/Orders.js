@@ -67,7 +67,7 @@ function Orders() {
         </div>}
         {display &&  <div className={classes.button}  onClick={displayHandler}>Cancel</div>}
         </div>
-        {paymentDisplay && <Payment/>}
+        {paymentDisplay && !display && <Payment/>}
       </div>
     </div>
   );
