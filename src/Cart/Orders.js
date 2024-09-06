@@ -31,7 +31,8 @@ function Orders() {
   return (
     <div className={classes.container} >
       <div className={classes.subContainer}>
-        <div className={classes.header}>Total Orders</div>
+        {!paymentDisplay && <div>
+          <div className={classes.header}>Total Orders</div>
         {display && <div>No items added yet.</div>}
         {cart.map(item=>{
          return <div>
@@ -67,6 +68,7 @@ function Orders() {
         </div>}
         {display &&  <div className={classes.button}  onClick={displayHandler}>Cancel</div>}
         </div>
+          </div>}
         {paymentDisplay && !display && <Payment/>}
       </div>
     </div>

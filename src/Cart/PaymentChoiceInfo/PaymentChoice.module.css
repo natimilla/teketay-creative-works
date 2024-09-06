@@ -28,8 +28,33 @@
     font-weight: bold;
     cursor: pointer;
 }
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin:0 0.5rem;
+    padding:0.25rem 1rem;
+    background-color: #ff3c00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    width:8dvw;
+}
+.button:hover{
+    background-color: #dd3705;
+    box-shadow: 0 0 1px white;
+}
+.button:active{
+    transform: scale(0.95);
+}
 @media screen and (max-width:1000px) {
     .toDOList{
         font-size: 15px;
+    }
+    .button{
+        width:20dvw;
+        padding:5px;
     }
 }

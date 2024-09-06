@@ -98,6 +98,7 @@ function Payment() {
             type="text"
             className={classes.input}
             onChange={adresschangeHandler}
+            placeholder="City,Subcity,Street"
             required
           />
         </div>
