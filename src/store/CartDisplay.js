@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 const CartDisplay = createSlice({
   name: "CartDisplay",
-  initialState: { scaleUp: false ,displayCart:false,cart:[],totalPrice:0,isEmpty:true,paymentDisplay:false},
+  initialState: { scaleUp: false ,displayCart:false,cart:[],totalPrice:0,totalAmount:0,isEmpty:true,paymentDisplay:false},
   reducers: {
     scaleUpHandler(state) {
       state.scaleUp =!state.scaleUp;
@@ -11,6 +11,7 @@ const CartDisplay = createSlice({
     },
     addItemHandler(state,action){
       const result=state.cart.find(item=>item.id===action.payload.id)
+      state.totalAmount+=1;
       if(result){
         result.amount=result.amount+1;
         return
@@ -22,18 +23,24 @@ const CartDisplay = createSlice({
             price:action.payload.price,
             amount:1
           })
+     
+        
+    
     },
     increaseAmountHandler(state,action){
       const result=state.cart.find(item=>item.id===action.payload);
-      result.amount=result.amount+1
+      result.amount=result.amount+1;
+      state.totalAmount+=1
     },
     decreaseAmountHandler(state,action){
+      state.totalAmount-=1
       const result=state.cart.find(item=>item.id===action.payload);
       if(result.amount===1){
         state.cart=state.cart.filter(item=>item.id!==result.id);
         return
       }
       result.amount=result.amount-1;
+     
     },
     totalPriceHandler(state){
       state.totalPrice = 0;
@@ -54,6 +61,7 @@ const CartDisplay = createSlice({
     },
     paymentDislpayHandler(state){
          state.paymentDisplay=!state.paymentDisplay
+         state.totalAmount=0;
     }
   },
 });

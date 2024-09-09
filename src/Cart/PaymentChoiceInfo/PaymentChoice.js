@@ -85,6 +85,7 @@ function PaymentChoice() {
       })
       dispatch(displayActions.LoadingHandler());
       dispatch(paymentInfoAction.paymentMethodDisplayHandler());
+      dispatch(paymentInfoAction.submissionHandler());
       setImage('')
      }
      catch(error){

@@ -12,6 +12,7 @@ import Store from "./store/store";
 import Cart from "./Cart/Cart";
 import Orders from "./Cart/Orders";
 import PaymentChoice from "./Cart/PaymentChoiceInfo/PaymentChoice";
+import Submission from "./Cart/PaymentChoiceInfo/Submission";
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
  const error=useSelector(Store=>Store.display.error);
  const submitted=useSelector(Store=>Store.display.submitted);
  const displayCart=useSelector(Store=>Store.cart.displayCart);
- const paymentMethod=useSelector(Store=>Store.paymentInfo.paymentMethod)
+ const paymentMethod=useSelector(Store=>Store.paymentInfo.paymentMethod);
+ const finished=useSelector(Store=>Store.paymentInfo.submitted);
  const display=submitted||error||loading
   return (
     <div className="App">
@@ -28,6 +30,7 @@ function App() {
        <Cart/>
        {displayCart && <Orders/>}
       {paymentMethod &&  <PaymentChoice/>}
+      {finished && <Submission/>}
       <Switch>
         <Route path="/" exact>
           <Page1 />

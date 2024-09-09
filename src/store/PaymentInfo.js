@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 const PaymentInfo=createSlice({
     name:'payment_info',
-    initialState:{message:'',accountNumber:'',accountHolderName:'Abynur Solomon',paymentMethod:false},
+    initialState:{message:'',accountNumber:'',accountHolderName:'Abynur Solomon',paymentMethod:false,submitted:false},
     reducers:{
         paymentChoiceHandler(state,action){
             if(action.payload==='telebir'){
@@ -19,6 +19,9 @@ const PaymentInfo=createSlice({
         },
         paymentMethodDisplayHandler(state){
             state.paymentMethod=!state.paymentMethod
+        },
+        submissionHandler(state){
+            state.submitted=!state.submitted
         }
     }
 })

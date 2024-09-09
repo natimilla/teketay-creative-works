@@ -5,6 +5,7 @@ import Store from "../store/store";
 import { CartDisplayAction } from "../store/CartDisplay";
 function Cart() {
     const scale=useSelector(Store=>Store.cart.scaleUp);
+    const totalAmount=useSelector(Store=>Store.cart.totalAmount)
     const dispatch=useDispatch();
    const displayHandler=()=>{
     dispatch(CartDisplayAction.displayHandler())
@@ -12,7 +13,8 @@ function Cart() {
   return (
     <div className={classes.container}>
       <div className={classes.subContainer} onClick={displayHandler} >
-        <img src={cart} className={`${classes.img} ${scale ? classes.scale:''}`} />
+        <div className={`${classes.imgContainer} ${scale ? classes.scale:''}`}><img src={cart} className={classes.img} />
+        <span className={classes.totalAmount}>{totalAmount}</span></div>
       </div>
     </div>
   );
