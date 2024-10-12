@@ -1,0 +1,90 @@
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subContainer {
+  width: 40dvw;
+  background-color: rgb(224, 222, 222);
+}
+.form {
+  padding: 1rem;  
+}
+.label{
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.input{
+  width:30dvw;
+  padding:0.25rem;
+  border:none
+}
+.input:focus{
+  outline: none;
+}
+.inputContainer{
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.subSubContainer {
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  background-color: #ff3c00;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  width: 100%;
+}
+.button{
+  border:none;
+  background-color: #ff3c00;
+  color: white;
+  padding:0.5rem 2rem;
+}
+.buttonContainer{
+  margin-top: 1rem;
+}
+.enteringOption {
+  width: 20dvw;
+  color:#ff3c00;
+  text-align: center;
+  margin:10px auto;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #9b2f0e;
+}
+.enteringOption:hover{
+  border:1px solid #ff3c00;
+}
+.button:active{
+  transform: scale(0.95);
+}
+.warning{
+  color:red;
+  text-align: left;
+}
+.input.incorrect{
+  border:2px solid red;
+  background-color: #fdd;
+}
+@media screen and (max-width:1000px) {
+  .subContainer{
+    width:90dvw;
+  }
+  .input{
+    width:70dvw;
+  }
+  .enteringOption{
+    width:70dvw;
+  }
+}

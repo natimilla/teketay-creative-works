@@ -4,7 +4,7 @@
     right:0;
     left:0;
     height:100dvh;
-    z-index: 30000;
+    z-index: 3000;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;

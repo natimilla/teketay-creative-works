@@ -8,7 +8,10 @@
      align-items: center;
      justify-content: space-between;
      background-color: rgba(0, 0, 0, 0.4);
-     z-index: 200;
+     z-index: 300;
+}
+.linksContainer{
+    display:flex;
 }
 .color{
     color:#ff3c00;
@@ -49,6 +52,18 @@ ul li a{
 ul li:hover{
     border-bottom: 5px solid #ff3c00;
     padding: 5px 0;
+}
+.img{
+    width: 28px;
+    height: 28px; 
+
+}
+.linkContainer a{
+    text-decoration: none;
+    color:white;
+}
+.linkContainer{
+    margin:0.5rem 0;
 }
 @media screen and (max-width:1000px) {
     .container{

@@ -24,7 +24,7 @@ function Orders() {
       dispatch(CartDisplayAction.isEmptyHandler())
     }
     const sendOrderHandler=async()=>{
-    
+      
       dispatch(CartDisplayAction.paymentDislpayHandler())
     }
     

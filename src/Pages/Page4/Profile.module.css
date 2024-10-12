@@ -1,0 +1,31 @@
+.container{
+    min-height: 85dvh;
+    margin-top:6rem;
+    display: flex;
+
+}
+.links{
+    padding:3rem 2rem;
+    background-color: whitesmoke;
+}
+.linkContainer{
+    padding:2rem 0;
+}
+.linkContainer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding:1rem 1rem 0.25rem 1rem;
+    cursor:pointer;
+}
+.linkContainer a:hover{
+      border-bottom: 5px solid #ff3c00;
+}
+.active{
+    border-bottom: 5px solid #ff3c00;
+}
+.side{
+    flex:3;
+    display:flex;
+    justify-content: center;
+}

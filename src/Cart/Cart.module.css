@@ -4,7 +4,8 @@
     right:0;
     height:100dvh;
     align-items: center;
-    z-index: 1000;
+     z-index: 200; 
+
 
 }
 .subContainer{

@@ -13,6 +13,7 @@ function Payment() {
   const [paymentMethod, setPaymentMethod] = useState("");
   const dispatch=useDispatch()
   const cart=useSelector(Store=>Store.cart.cart);
+  const email=useSelector(Store=>Store.auth.email)
   const nameChangeHandler = (event) => {
     setName(event.target.value);
   };
@@ -43,6 +44,8 @@ function Payment() {
         phone2:phone2,
         address:address,
         paymentMethod:paymentMethod,
+        Email:email,
+        date:new Date(),
       })
       try{
         dispatch(displayActions.LoadingHandler())

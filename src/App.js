@@ -13,6 +13,8 @@ import Cart from "./Cart/Cart";
 import Orders from "./Cart/Orders";
 import PaymentChoice from "./Cart/PaymentChoiceInfo/PaymentChoice";
 import Submission from "./Cart/PaymentChoiceInfo/Submission";
+import Authentication from "./Authentication/Authentication";
+import Profile from "./Pages/Page4/Profile";
 
 
 function App() {
@@ -22,10 +24,12 @@ function App() {
  const displayCart=useSelector(Store=>Store.cart.displayCart);
  const paymentMethod=useSelector(Store=>Store.paymentInfo.paymentMethod);
  const finished=useSelector(Store=>Store.paymentInfo.submitted);
+ const isLogin=useSelector(Store=>Store.auth.isLogin)
  const display=submitted||error||loading
   return (
     <div className="App">
-     {display &&  <Overlay/>}
+     {isLogin && <div>
+      {display &&  <Overlay/>}
       <Header />
        <Cart/>
        {displayCart && <Orders/>}
@@ -41,8 +45,13 @@ function App() {
         <Route path="/products">
           <Page3 />
         </Route>
+        <Route path='/profile'>
+        <Profile/>
+        </Route>
       </Switch>
       <Footer />
+     </div>}
+      {!isLogin && <Authentication/>}
     </div>
   );
 }
