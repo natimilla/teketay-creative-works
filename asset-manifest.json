@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/teketay-creative-works/static/css/main.42c048b4.css",
-    "main.js": "/teketay-creative-works/static/js/main.1e3de34c.js",
-    "static/js/453.1dfb70ee.chunk.js": "/teketay-creative-works/static/js/453.1dfb70ee.chunk.js",
+    "main.css": "/teketay-creative-works/static/css/main.bb2ed25a.css",
+    "main.js": "/teketay-creative-works/static/js/main.a1a131fd.js",
+    "static/js/453.8c36ff88.chunk.js": "/teketay-creative-works/static/js/453.8c36ff88.chunk.js",
     "static/media/video_2024-08-12_17-46-02.mp4": "/teketay-creative-works/static/media/video_2024-08-12_17-46-02.ad1d1f9afe9333d2a6d5.mp4",
     "static/media/Meskel.jpg": "/teketay-creative-works/static/media/Meskel.754db5c4d024769ef6f2.jpg",
     "static/media/owel.jpg": "/teketay-creative-works/static/media/owel.19d514d7daa82bb22fc7.jpg",
@@ -25,6 +25,7 @@
     "static/media/businessCard.svg": "/teketay-creative-works/static/media/businessCard.c5399474664e6480c107a773764773ba.svg",
     "static/media/custom.svg": "/teketay-creative-works/static/media/custom.0389c79a63a1a6ae01d033f7e9de2f93.svg",
     "static/media/location.svg": "/teketay-creative-works/static/media/location.3bde7fd38d411ff19278b273c63d3ebe.svg",
+    "static/media/profile.svg": "/teketay-creative-works/static/media/profile.199a9999f80723693640e76cbf14509a.svg",
     "static/media/telegramLogo.svg": "/teketay-creative-works/static/media/telegramLogo.ae833f47b1a87e1f477cf25a42b5144c.svg",
     "index.html": "/teketay-creative-works/index.html",
     "static/media/mail.svg": "/teketay-creative-works/static/media/mail.202479094d9201f193a615a54233a3bd.svg",
@@ -38,12 +39,12 @@
     "static/media/plus.svg": "/teketay-creative-works/static/media/plus.1a3a13b67b9ccb2520dcf61f97b34916.svg",
     "static/media/interiorDesign.svg": "/teketay-creative-works/static/media/interiorDesign.36d302f08dc0662f3aeac781473b547d.svg",
     "static/media/menuIcon.svg": "/teketay-creative-works/static/media/menuIcon.864c0f54c784828d98f3de83aea62c46.svg",
-    "main.42c048b4.css.map": "/teketay-creative-works/static/css/main.42c048b4.css.map",
-    "main.1e3de34c.js.map": "/teketay-creative-works/static/js/main.1e3de34c.js.map",
-    "453.1dfb70ee.chunk.js.map": "/teketay-creative-works/static/js/453.1dfb70ee.chunk.js.map"
+    "main.bb2ed25a.css.map": "/teketay-creative-works/static/css/main.bb2ed25a.css.map",
+    "main.a1a131fd.js.map": "/teketay-creative-works/static/js/main.a1a131fd.js.map",
+    "453.8c36ff88.chunk.js.map": "/teketay-creative-works/static/js/453.8c36ff88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c048b4.css",
-    "static/js/main.1e3de34c.js"
+    "static/css/main.bb2ed25a.css",
+    "static/js/main.a1a131fd.js"
   ]
 }
