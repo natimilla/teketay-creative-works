@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/teketay-creative-works/static/css/main.bb2ed25a.css",
-    "main.js": "/teketay-creative-works/static/js/main.a1a131fd.js",
+    "main.css": "/teketay-creative-works/static/css/main.8ea9c494.css",
+    "main.js": "/teketay-creative-works/static/js/main.3d7ed243.js",
     "static/js/453.8c36ff88.chunk.js": "/teketay-creative-works/static/js/453.8c36ff88.chunk.js",
     "static/media/video_2024-08-12_17-46-02.mp4": "/teketay-creative-works/static/media/video_2024-08-12_17-46-02.ad1d1f9afe9333d2a6d5.mp4",
     "static/media/Meskel.jpg": "/teketay-creative-works/static/media/Meskel.754db5c4d024769ef6f2.jpg",
@@ -38,13 +38,15 @@
     "static/media/instagram.svg": "/teketay-creative-works/static/media/instagram.e9b8ac06405cd3550ba1d12ccca937cb.svg",
     "static/media/plus.svg": "/teketay-creative-works/static/media/plus.1a3a13b67b9ccb2520dcf61f97b34916.svg",
     "static/media/interiorDesign.svg": "/teketay-creative-works/static/media/interiorDesign.36d302f08dc0662f3aeac781473b547d.svg",
+    "static/media/downArrow.svg": "/teketay-creative-works/static/media/downArrow.99fe5aef0f80cde8ca2db859257eb7bd.svg",
+    "static/media/UpArrow.svg": "/teketay-creative-works/static/media/UpArrow.149f9b1ed3757a4fa4c033a0e9b3f23a.svg",
     "static/media/menuIcon.svg": "/teketay-creative-works/static/media/menuIcon.864c0f54c784828d98f3de83aea62c46.svg",
-    "main.bb2ed25a.css.map": "/teketay-creative-works/static/css/main.bb2ed25a.css.map",
-    "main.a1a131fd.js.map": "/teketay-creative-works/static/js/main.a1a131fd.js.map",
+    "main.8ea9c494.css.map": "/teketay-creative-works/static/css/main.8ea9c494.css.map",
+    "main.3d7ed243.js.map": "/teketay-creative-works/static/js/main.3d7ed243.js.map",
     "453.8c36ff88.chunk.js.map": "/teketay-creative-works/static/js/453.8c36ff88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb2ed25a.css",
-    "static/js/main.a1a131fd.js"
+    "static/css/main.8ea9c494.css",
+    "static/js/main.3d7ed243.js"
   ]
 }
