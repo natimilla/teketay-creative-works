@@ -58,6 +58,10 @@ ul li:hover{
     height: 28px; 
 
 }
+.imgArrow{
+    width:16px;
+    height:16px;
+}
 .linkContainer a{
     text-decoration: none;
     color:white;

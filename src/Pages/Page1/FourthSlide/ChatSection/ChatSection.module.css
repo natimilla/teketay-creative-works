@@ -57,8 +57,11 @@
     .container{
         width:90dvw;
     }
+    .infoContainer{
+        display: block;
+    }
     .textInput{
-        width:35dvw;
+        width:75dvw;
         background-color: whitesmoke;
     }
 }

@@ -1,8 +1,12 @@
 .link{
     text-decoration: none;
+    text-align: left;
 }
 .links{
     color:white;
+}
+.links:hover{
+    color:black ;
 }
 .links img{
      max-width: 32px;
@@ -13,4 +17,7 @@
     color:white;
     margin-bottom: 2rem;
     font-weight: bold;
+}
+.headingContainer{
+    margin-bottom: 1rem;
 }

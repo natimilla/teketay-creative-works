@@ -20,10 +20,10 @@ table {
 
 th, td {
     padding: 8px;
-    text-align: left;
-    border: 1px solid #969696;
+    text-align: center;
+    border: 1px solid #afabab;
+    
 }
-
 th {
     font-weight: bold;
 }
@@ -32,7 +32,8 @@ th {
     table {
         display: block;
         overflow-x: auto; /* Allow horizontal scrolling */
-        white-space: nowrap; /* Prevent wrapping */
+        white-space: nowrap; 
+       /* Prevent wrapping */
     }
 
     th {
@@ -44,11 +45,13 @@ th {
 
     tr {
         display: table; /* Maintain the table row structure */
-        width: 100%; /* Ensure rows stretch full width */
+        width: 100%; 
+        /* Ensure rows stretch full width */
     }
     td{
-        text-align: left;
-        border: 1px solid #ddd;
+        border: 1px solid #afabab;
+        text-align: justify;
+        border: 1px solid #afabab;
     }
 
     

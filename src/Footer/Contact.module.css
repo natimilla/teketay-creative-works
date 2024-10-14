@@ -10,6 +10,9 @@
     color:white;
     
 }
+.linkContainer a:hover{
+    color:black;
+}
 .headingSpan{
     color:black;
 }
@@ -18,10 +21,14 @@ a img{
     max-height: 30px;
    
 }
+.socialMediaLinkContainer{
+    text-align: left;
+}
 .linkLogo img{
     margin:1rem;
    
 }
 .linkContainer{
-    margin:1.5rem 1rem
+    margin:1.5rem 1rem;
+    text-align: left;
 }

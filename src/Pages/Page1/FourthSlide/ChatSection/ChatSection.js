@@ -88,7 +88,7 @@ function ChatSection() {
           <label> MESSAGE </label>
         </div>
         <div className={classes.inputContainer}>
-          <textarea cols="10" className={classes.textInput} onChange={messageChangeHandler} value={message} required></textarea>
+          <textarea cols="20" className={classes.textInput} onChange={messageChangeHandler} value={message} required></textarea>
         </div>
         <div className={classes.buttonContainer}>
         <button type="submit" className={classes.button}> Send Message </button>

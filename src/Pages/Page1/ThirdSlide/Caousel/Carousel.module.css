@@ -2,10 +2,11 @@
     width:90dvw;
     height:90dvh;
     border-radius: 0;
+    object-fit: cover;
 }
 .carousel{
     color:white;
-    z-index: 200;
+    z-index: 150;
 }
 .overlay{
     background-color: rgba(0, 0, 0, 0.5);

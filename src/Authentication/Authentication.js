@@ -3,6 +3,7 @@ import classes from './Authentication.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { displayActions } from '../store/display';
 import { authAction } from '../store/Auth';
+import { Helmet } from 'react-helmet';
 function Authentication(){
     const[isLogin,setisLogin]=useState(true);
     const[incorrectPassword,setincorrectPassword]=useState(false);
@@ -100,6 +101,10 @@ function Authentication(){
       }
     
     return  <div className={classes.container}>
+      <Helmet>
+        <title>{isLogin ? 'Teketay Creative works Sign in Page': 'Teketay Creative works Sign Up Page'}</title>
+        <meta name="teketay creatuve works" content="This is the authentication page of teketay creative works" />
+      </Helmet>
         <div className={classes.subContainer}>
         <div className={classes.heading}>{isLogin ? 'SIGN IN' : 'SIGN UP'}</div>
         <div className={classes.subSubContainer}>

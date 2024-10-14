@@ -9,6 +9,8 @@ import { HashLink } from "react-router-hash-link";
 import profile from "./profile.svg";
 import { useDispatch } from "react-redux";
 import { authAction } from "../store/Auth";
+import uparrow from './UpArrow.svg'
+import downarrow from './downArrow.svg'
 function Header() {
   const [ismobileView, setMobileview] = useState(false);
   const [displayLinks, setdisplay] = useState(false);
@@ -76,6 +78,11 @@ function Header() {
               <li className={classes.imgContainer}>
                 <span  onClick={profileDisplayLinkHandler}>
                   <img src={profile} className={classes.img} />
+                  <img
+                  src={displayProfileLink ? uparrow:downarrow}
+                  className={classes.imgArrow}
+                  alt='arrow indicator'
+                />
                 </span>
                 
               </li>
@@ -88,7 +95,7 @@ function Header() {
           <NavLink to="/profile/ChangePassword" activeClassName={classes.active} onClick={removeHandler}>Change Password</NavLink>
         </div>
         <div className={classes.linkContainer}>
-          <NavLink to="/" onClick={logOutHandler} exact activeClassName={classes.active} >Log Out</NavLink>
+          <NavLink to="/" onClick={logOutHandler} exact  >Log Out</NavLink>
         </div>
       </div>}
               </div>

@@ -7,7 +7,7 @@ import location from './location.svg'
 function Contact(){
    return <div>
     <h className={classes.heading}>Teketay<span className={classes.headingSpan}> Creative</span> Works</h>
-    <div>
+    <div className={classes.socialMediaLinkContainer}>
     <a href='' className={classes.linkLogo}><img src={location}/></a>
     <a href='https://www.instagram.com/teketaycreativeworks?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className={classes.linkLogo}><img src={instagram}/></a>
     <a href='https://t.me/teketaycreativeworks1' className={classes.linkLogo}><img src={telegram}/></a>

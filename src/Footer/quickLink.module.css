@@ -1,14 +1,21 @@
 .heading{
     font-size: 32px;
     color:white;
-    margin-bottom: 2rem;
     font-weight: bold;
+    text-align: left;
+}
+.headingContainer{
+    margin-bottom:1rem;
 }
 .Link{
     color:white;
     text-decoration: none;
     cursor: pointer;
     margin-bottom: 1rem;
+   
+}
+.container p{
+    text-align: left;
 }
 .Link:hover{
     color:black;

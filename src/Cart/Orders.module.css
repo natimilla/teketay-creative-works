@@ -24,6 +24,7 @@
     height: 10dvh;
     border-radius: 0;
     box-shadow: 0 0 5px black;
+    object-fit:cover;
 }
 .header{
     font-size: 32px;
