@@ -53,8 +53,10 @@
         width:70dvw;
         height:40dvh;
         margin-bottom: 1.5rem;
+        object-fit:cover;
+        object-position: top;
     }
     .description{
-        text-align: center;
+        text-align: left;
     }
 }
